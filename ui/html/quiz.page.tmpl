@@ -1,0 +1,45 @@
+{{template "base" .}}
+{{define "title"}}Question M{{.Quiz.ModuleId}}Q{{.Quiz.QuizNumber}}{{end}}
+{{define "header"}}<h1 class="header">Question</h1>{{end}}
+{{define "nav"}}<div class="progress">Progress: <progress value="{{.Quiz.Progress}}" max="100">{{.Quiz.Progress}} %</progress></div>{{end}}
+{{define "main"}}
+      <section class="quiz-card">
+          <h1 class="quiz">Quiz -
+              <a class="sublime" href="{{.Quiz.BaseUrl}}?mid={{.Quiz.ModuleId}}&amp;qid={{.Quiz.QuizNumber}}">M{{.Quiz.ModuleId}}Q{{.Quiz.QuizNumber}}</a>
+          </h1>
+          <div>
+              <form id="task-{{.Quiz.TaskId}}" method="POST" action="{{.Quiz.BaseUrl}}">
+                  <p>{{.Quiz.Task}}</p>
+                  <blockquote class="claim">{{.Quiz.Claim}}</blockquote>
+                  <div class="choice">
+                      <input type="radio" id="alternativeChoice1" name="alternative" value="1" required>
+                      <label for="alternativeChoice1">{{.Quiz.Alternative1}}</label>
+                      <br>
+                      <input type="radio" id="alternativeChoice2" name="alternative" value="2">
+                      <label for="alternativeChoice2">{{.Quiz.Alternative2}}</label>
+                      <br>
+                      <input type="radio" id="alternativeChoice3" name="alternative" value="3">
+                      <label for="alternativeChoice3">{{.Quiz.Alternative3}}</label>
+                      <br>
+                      <input type="radio" id="alternativeChoice4" name="alternative" value="4">
+                      <label for="alternativeChoice4">{{.Quiz.Alternative4}}</label>
+                      <br>
+                      <input type="radio" id="alternativeChoice5" name="alternative" value="5">
+                      <label for="alternativeChoice5">{{.Quiz.Alternative5}}</label>
+                  </div>
+                  <div class="choice">
+                      <br>
+                      <button type="submit">Submit</button>
+                  </div>
+                  <input type="hidden" name="_module" value="{{.Quiz.ModuleId}}">
+                  <input type="hidden" name="_question" value="{{.Quiz.QuizNumber}}">
+                  <input type="hidden" name="_method" value="POST">
+                  <input type="hidden" name="csrf_token" value="{{.Quiz.Token}}">
+              </form>
+          </div>
+          <div>
+              <br>
+              <a href="{{.Quiz.BaseUrl}}">Rather take another Random Quiz</a>?
+          </div>
+      </section>
+{{end}}
