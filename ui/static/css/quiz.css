@@ -1,0 +1,66 @@
+body {
+  background-color: #f9f9f9;
+  color: #212121;
+  font-family: sans-serif;
+}
+a.sublime {
+    text-decoration: none;
+    color: inherit;
+}
+div.progress {
+  text-align: right;
+  background-color: #f9f9f9;
+  margin-bottom: 0;
+  padding-right: 3rem;
+  padding-top: 0;
+}
+h1.quiz {
+  border-bottom: 1px solid #b4b4b4;
+  display: inline;
+}
+h1.header {
+  margin-left: 3rem;
+  padding-left: 0;
+}
+ul.feedback {
+  margin-left: 4rem;
+  padding-left: 0;
+}
+blockquote.claim {
+  font-size: 141%;
+  font-weight: bold;
+}
+.ok {
+  background-color: #b4f36b;
+  padding: 1rem;
+}
+.nok {
+  background-color: #ffc107;
+  padding: 1rem;
+}
+div.choice, div.evaluation {
+  margin-left: 4rem;
+}
+section.quiz-card {
+  margin: 3rem;
+  padding: 1rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+section.evaluation-card-ok {
+  margin: 3rem;
+  padding: 1rem;
+  border: #b4b4b4 dashed 1px;
+  box-shadow: 3px 3px 5px #b4f36b;
+  background-color: #ffffff;
+}
+section.evaluation-card-nok {
+  margin: 3rem;
+  padding: 1rem;
+  border: #b4b4b4 dashed 1px;
+  box-shadow: 3px 3px 5px #ffc107;
+  background-color: #ffffff;
+}
+footer {
+  padding-left: 3rem;
+}
