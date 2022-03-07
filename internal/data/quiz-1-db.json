@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "module": 1,
+    "kind": "quiz",
+    "question_count": 15,
+    "points_total": 15,
+    "percent_total": 100,
+    "weights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "quiz": [
+    {
+        "task": "Identify the ONLY CORRECT statement with regard to an appropriate guideline for writing a good requirement statement.",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "Guidelines for a writing good requirement statement include:",
+            "details": [
+                ["$LIST_ON"],
+                ["$ITEM", "use a style guide;"],
+                ["$ITEM", "use a standard template;"],
+                ["$ITEM", "use a glossary to define terms;"],
+                ["$ITEM", "use correct English;"],
+                ["$ITEM", "use a subject appropriate to level;"],
+                ["$ITEM", "use explicit lists;"],
+                ["$ITEM", "use the active voice;"],
+                ["$ITEM", "use the definite article;"],
+                ["$ITEM", "use the same term to mean the same thing;"],
+                ["$ITEM", "avoid vague words; avoid superfluous words;"],
+                ["$ITEM", "avoid superfluous words;"],
+                ["$ITEM", "avoid unbounded statements;"],
+                ["$ITEM", "avoid escape clauses;"],
+                ["$ITEM", "avoid the use of conjunctions;"],
+                ["$ITEM", "use a convention for logical conditions;"],
+                ["$ITEM", "avoid unnecessary precision; be precise when necessary;"],
+                ["$ITEM", "be precise when necessary;"],
+                ["$ITEM", "avoid the use of not;"],
+                ["$ITEM", "avoid cross-reference to other requirements;"],
+                ["$ITEM", "use diagrams where appropriate;"],
+                ["$ITEM", "use informative statements;"],
+                ["$ITEM", "and ensure the requirement is verifiable."],
+                ["$LIST_OFF"]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "don't constrain the designer at the next level",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "use a glossary to define terms",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "allow writers to use whichever format they prefer",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "include a description of how the requirement will be achieved",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "ensure that the requirement is not bound very tightly",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Which ONE of the following is the preferred structure of a simple requirement statement?",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "The structure of a requirement statement is the structure of a simple English sentence: [subject] + [priority] + [verb] + [object].",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "[subject] + [verb] + [object]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[object]+ [verb] + [priority] + [subject]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[subject] + [verb] + [object]+ [priority]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[subject]+ [verb] + [priority] + [object]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[subject] + [priority] + [verb] + [object]",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+    },
+    {
+        "task": "Which ONE of the following is the preferred structure of a simple requirement statement when a condition is included?",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "The structure of a requirement statement including a condition is: [condition] + [subject] + [priority] + [verb] + [object].",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "[condition] + [subject] + [priority] + [verb] + [object]",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "[condition] + [object]+ [verb] + [priority] + [subject]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[subject] + [verb] + [object] + [condition]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[condition] + [subject] + [verb] + [object]+ [priority]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[condition] + [subject]+ [verb] + [priority] + [object]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Which ONE of the following is the preferred structure of a simple requirement statement when a qualification is included?",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "The structure of a requirement statement including a qualification is: [subject] + [priority] + [verb] + [object] + [qualification].",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "[qualification] + [object]+ [verb] + [priority] + [subject]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[qualification] + [subject]+ [verb] + [priority] + [object]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[subject] + [verb] + [object] + [qualification]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[subject] + [priority] + [verb] + [object] + [qualification]",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "[qualification] + [subject] + [verb] + [object]+ [priority]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Which ONE of the following is the preferred structure of a simple requirement statement when a condition and a qualification are included?",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "The structure of a requirement statement including a condition and qualification is: [condition] + [subject] + [priority] + [verb] + [object] + [qualification].",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "[condition] + [subject] + [priority] + [verb] + [qualification] + [object]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[condition]+ [subject] + [priority] + [verb] + [object] + [qualification]",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "[qualification] + [subject] + [condition] + [priority] + [verb] + [object]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[subject] + [priority] + [verb] + [qualification] + [object] + [condition]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "[condition] + [qualification] + [subject] + [verb] + [object]+ [priority]",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Which ONE of the following statements utilises the correct preferred structure of a requirement statement?",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "The correct preferred structure of a requirement statement is: [condition] + [subject] + [priority] + [verb] + [object] + [qualification].",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "The Inlet_Valve shall be closed by the Control_Subsystem in less than 10 seconds when the Water_Temperature is less than 95°C.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "When the Water_Temperature is less than 95°C, the Inlet_Valve shall be closed by the Control_Subsystem in less than 10 seconds.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "The Inlet_Valve shall be closed by the Control_Subsystem in less than 10 seconds, when the Water_Temperature is less than 95°C.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "The Inlet_Valve shall be closed by the Control_Subsystem when the Water_Temperature is less than 95°C in less than 10 seconds.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "When the Water_Temperature is less than 95°C, the Control_Subsystem shall close the Inlet_Valve, in less than 10 seconds.",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+    },
+    {
+        "task": "Which ONE of the following is the correctly formed requirement statement?",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "The correctly formed requirement statement is: \"When in the EMPTY state, the Hopper shall weigh less than 100kg.\"",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "When in the EMPTY state, the Hopper shall weigh less than 100kg.",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "The Location of the each Line_Item shall be displayed by the Record_Subsystem when in the ACTIVE mode.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "The System shall prevent Transmission when in the MAINTENANCE mode.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "The System shall transition in less than 5 seconds from the STANDBY mode to the OFF mode.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "The System shall encrypt each Communication_Channel when in the SECURE mode.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Which ONE of the following is the correctly formed requirement statement?",
+        "claim": "",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "The correctly formed requirement statement is: \"When in the ACTIVE State, the Record_Subsystem shall display the Name of each Line_Item, without obscuring the User_ID.\"",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "When in the ACTIVE State, the Record Subsystem shall display the Name of each Line Item, without obscuring the User ID.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "Without obscuring the User_ID, the Record_Subsystem shall display the name of each Line_Item, when in the ACTIVE State.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "When in the ACTIVE State, the Record_Subsystem shall display the Name of each Line_Item, without obscuring the User_ID.",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "The Record_Subsystem shall display the Name of each Line-Item, when in the ACTIVE State, without obscuring the User_ID.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "When in the ACTIVE State, the Record_Subsystem shall display the Name of each Line Item, without obscuring the User_ID.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Identify which ONE of the following correctly identifies ALL of the errors in the following requirement statement:",
+        "claim": "\"When in the ACTIVE State, the Record_Subsystem shall display the Name of each Line_Item.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There are no errors in this statement: \"When in the ACTIVE State, the Record_Subsystem shall display the Name of each Line_Item.\"",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "Two errors: incorrect structure AND incorrect Glossary items (multiple-word entries).",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect subject.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: location of qualification.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No errors.",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: location of condition.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Identify which ONE of the following correctly identifies ALL of the errors in the following requirement statement:",
+        "claim": "\"When the Water_Temperature is less than 85 °C, the Control_Subsystem shall open the Inlet_Valve.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There are no errors in this statement: \"When the Water_Temperature is less than 85 °C, the Control_Subsystem shall open the Inlet_Valve.\"",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: location of condition.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect English expression.",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "Two errors: incorrect English expression AND incorrect sentence structure",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No errors.",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "Two errors: passive voice and incorrect Glossary item (multiple-word entries)",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"The Accounting_System shall confirm the Identity of the Customer.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is no error. The statement is correct.",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: incorrect English expression",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: not singular",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect Glossary item",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect sentence structure",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"The System shall display the Account_Balance and the Account_Holder.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error. The sentence contains a conjunction \"and\".",
+            "details": [
+                ["The statement must be re-written to be two sentences:"],
+                ["$QUOTE", "\"The System shall display the Account_Balance.\""],
+                ["and"],
+                ["$QUOTE", "\"The System shall display the Account_Holder.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: incorrect Glossary item",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect sentence structure",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: not singular",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct. There is one error."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect English expression",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in TRANSMIT mode, the System shall transmit less than 50W.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is no error. The statement is correct.",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: incorrect sentence structure",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect English expression",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: not singular",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect Glossary item",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"The System shall display the Name of each Line Item.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error. The sentence contains a compound glossary item which requires an underscore between the two words.",
+            "details": [
+                ["The statement must be re-written to be:"],
+                ["$QUOTE", "\"The System shall display the Name of each Line_Item.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: not singular",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect Glossary item",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: incorrect sentence structure",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect English expression",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+    },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When the Water_Temperature is greater than 95°C, the Control_Subsystem shall open the Inlet_Valve.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is no error. The statement is correct.",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: incorrect English expression",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: not singular",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect Glossary item",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect sentence structure",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+    }
+  ]
+}
