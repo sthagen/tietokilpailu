@@ -1,0 +1,25 @@
+{{template "base" .}}
+{{define "title"}}Evaluation M{{.Evaluation.ModuleId}}Q{{.Evaluation.QuizNumber}}{{end}}
+{{define "header"}}<h1 class="header">Evaluation</h1>{{end}}
+{{define "nav"}}<div class="progress">Progress: <progress value="{{.Evaluation.Progress}}" max="100">{{.Evaluation.Progress}} %</progress></div>{{end}}
+{{define "main"}}
+      <section class="{{if .Evaluation.Ok}}evaluation-card-ok{{else}}evaluation-card-nok{{end}}">
+          <h1 class="quiz">Evaluation -
+              <a class="sublime" href="{{.Evaluation.BaseUrl}}?mid={{.Evaluation.ModuleId}}&amp;qid={{.Evaluation.QuizNumber}}">M{{.Evaluation.ModuleId}}Q{{.Evaluation.QuizNumber}}</a>
+          </h1>
+          <p>The question was:</p>
+          <div class="evaluation" id="result-{{.Evaluation.TaskId}}">
+              <p>{{.Evaluation.Task}}</p>
+              {{if .Evaluation.Claim}}<blockquote class="claim">{{.Evaluation.Claim}}</blockquote>{{end}}
+              <p>The alternative chosen was:</p>
+              <blockquote class="{{if .Evaluation.Ok}}ok{{else}}nok{{end}}">{{.Evaluation.AlternativeChosen}}</blockquote>
+              <p>Feedback:</p>
+              <blockquote class="{{if .Evaluation.Ok}}ok{{else}}nok{{end}}">{{.Evaluation.Hint}}<br><br>{{.Evaluation.Summary}}</blockquote>
+              {{range $line := .Evaluation.Details}}{{$line}}{{end}}
+          </div>
+          <div>
+              <br>
+              <a href="{{.Evaluation.BaseUrl}}">Take another Random Quiz</a>{{if not .Evaluation.Ok}} or <a href="{{.Evaluation.BaseUrl}}?mid={{.Evaluation.ModuleId}}&amp;qid={{.Evaluation.QuizNumber}}">try this one again</a>{{end}}?
+          </div>
+      </section>
+{{end}}
