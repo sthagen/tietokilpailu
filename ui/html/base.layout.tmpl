@@ -1,0 +1,34 @@
+{{define "base"}}
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" content="What">
+        <meta property="og:title" content="Who" />
+        <meta property="og:type" content="Website" />
+        <meta property="og:url" content="https://example.com/go/" />
+        <meta property="og:image" content="https://example.com/nice/picture.png" />
+        <meta property="og:image:width" content="790" />
+        <meta property="og:image:height" content="494" />
+        <meta property="og:description" content="Organizational blurb." />
+        <title>{{template "title" .}} - Quiz</title>
+        <link rel="stylesheet" href="/static/css/quiz.css">
+    </head>
+    <body>
+    <header>
+        {{template "header" .}}
+    </header>
+    <nav>
+        {{template "nav" .}}
+    </nav>
+    <main>
+        {{template "main" .}}
+    </main>
+    <footer>
+        {{template "footer" .}}
+    </footer>
+    </body>
+</html>
+{{end}}
