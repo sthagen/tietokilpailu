@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "module": 3,
+    "kind": "quiz",
+    "question_count": 15,
+    "points_total": 15,
+    "percent_total": 100,
+    "weights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "quiz": [
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When the Water_Temperature is less than 85°C or the Operating_Mode is set to Empty, the Control_Subsystem shall open the Inlet_Valve.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains inappropriate use of logical conditions.",
+            "details": [
+                ["Assuming both conditions must be held simultaneously, the statement should be rewritten as:"],
+                ["$QUOTE", "\"When [the Water_Temperature is less than 85°C] OR [the Operating_Mode is set to Empty], the Control_Subsystem shall open the Inlet_Valve.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When the Inside_Temperature is greater than 2°C, the System shall activate the Audible_Alarm, for [greater than 10s] AND [less than 12s].\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is no error. The sentence is correct.",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When the Outside_Temperature is greater than 40°C, the System shall close the Exit_Vent, if possible in less than 2s.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an inappropriate use of an escape clause.",
+            "details": [
+                ["The statement should be re-written as:"],
+                ["$QUOTE", "\"When the Outside_Temperature is greater than 40°C, the System shall close the Exit_Vent, in less than 2s.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": null
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the TRANSIT mode, the System shall radiate less than 200W, as measured in accordance with Clause 7.1 of Standard XYZ.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is no error. The sentence is correct.",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": null
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": null
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"On transition from the OPEN state to the CLOSED state and so on, the System shall draw less than 1A, for less than 10s.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an inappropriate use of an unbounded statement.",
+            "details": [
+                ["The statement should be re-written as:"],
+                ["$QUOTE", "\"On transition from the OPEN state to the CLOSED state, the System shall draw less than 1A, for less than 10s.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the TRANSIT mode, the System shall occupy a volume of less than 10 cubic metres and weigh less than 100kg.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an incorrect use of conjunctions.",
+            "details": [
+                ["The statement should be re-written as two statements:"],
+                ["$QUOTE", "\"When in the TRANSIT mode, the System shall occupy a volume of less than 10 cubic metres.\""],
+                ["and"],
+                ["$QUOTE", "\"When in the TRANSIT mode, the System shall weigh less than 100kg.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the STORED mode, the Antenna_Socket shall protrude less than 2 cm from the Receiver_Face.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is no error. The sentence is correct.",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the EMPTY state, the Hopper shall weigh as close to 100kg as possible.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an inappropriate use of an escape clause.",
+            "details": [
+                ["The statement should be re-written as:"],
+                ["$QUOTE", "\"When in the EMPTY state, the Hopper shall weigh less than 100kg.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the MAINTENANCE mode, the System shall prevent Transmission.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is no error. The sentence is correct.",
+            "details": [
+                [""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"The System shall provide Telephony_Services in accordance with the EXOCOM_A1 and A2 Standards.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an incorrect use of conjunctions.",
+            "details": [
+                ["The statement should be re-written as two statements:"],
+                ["$QUOTE", "\"The System shall provide Telephony_Services in accordance with the EXOCOM_A1_Standard.\""],
+                ["and"],
+                ["$QUOTE", "\"The System shall provide Telephony_Services in accordance with the EXOCOM_A2_Standard.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the SECURE mode, the System shall encrypt each Communication_Channel when required, using Class_X_Encryption.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an inappropriate use of an escape clause.",
+            "details": [
+                ["The statement should be re-written as:"],
+                ["$QUOTE", "\"When in the SECURE mode, the System shall encrypt each Communication_Channel, using Class_X_Encryption.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"The System shall transition from the STANDBY mode to the other modes in less than 5 seconds.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an inappropriate use of an unbounded statement.",
+            "details": [
+                ["The statement should be re-written as:"],
+                ["$QUOTE", "\"The System shall transition from the STANDBY mode to the OFF mode in less than 5 seconds.\""],
+                ["and then one statement for each of the 'other' modes."]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the STANDBY mode, the Standby_Light shall emit at a frequency of less than 650nm AND greater than 620nm.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an incorrect convention for logical conditions.",
+            "details": [
+                ["The statement should be re-written as:"],
+                ["$QUOTE", "\"When in the STANDBY mode, the Standby_Light shall emit at a frequency of [greater than 620nm] AND [less than 650nm].\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies the error in the following requirement statement:",
+        "claim": "\"When in the ACTIVE mode, the Record_Subsystem shall display the Name of each Line_Item, without obscuring too much of the Work_Space.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains an inappropriate use of an unbounded statement.",
+            "details": [
+                ["The statement should be re-written as:"],
+                ["$QUOTE", "\"When in the ACTIVE mode, the Record_Subsystem shall display the Name of each Line_Item, without obscuring the Work_Space.\""],
+                ["or one statement should be written for each item that is to be protected."]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "One error: use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect convention for logical conditions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the statement is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of unbounded statements",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            }
+        ]
+   },
+    {
+        "task": "Identify which ONE of the following correctly identifies ALL the errors in the following requirement statement:",
+        "claim": "\"The System shall alert the Operator with the Visual_Alarm or the Audible_Alarm.\"",
+        "answer_kind": "exclusive",
+        "explanation": {
+            "summary": "There is one error: the sentence contains a conjunction \"or\" which leads to ambiguity as to whether both must be present or the designers can choose just one.",
+            "details": [
+                ["If both must be present, the statement must be re-written to be multiple sentences:"],
+                ["$QUOTE", "\"The System shall provide the Visual_Alarm.\""],
+                ["and"],
+                ["$QUOTE", "\"The System shall provide the Audible_Alarm.\""]
+            ]
+        },
+        "alternatives": [
+            {
+                "alternative": "Two errors: incorrect convention for logical conditions AND incorrect sentence structure",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "One error: use of conjunction",
+                "evaluation": "correct",
+                "hint": "Yes, that is correct."
+            },
+            {
+                "alternative": "Two errors: use of escape clause AND incorrect use of conjunctions",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "Two errors: use of unbounded statements AND use of escape clause",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            },
+            {
+                "alternative": "No error: the sentence is correct",
+                "evaluation": "incorrect",
+                "hint": "Sorry, that is incorrect."
+            }
+        ]
+   }
+  ]
+}
